@@ -9,6 +9,103 @@
       </p>
       <button class="hero-btn" type="button">Order Now</button>
     </div>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <picture>
+            <!-- desktop screen -->
+            <source media="(min-width: 1200px)" srcset="
+                              ./images/hero-img/swiper/img-1@1x_lg.webp 1x,
+                              ./images/hero-img/swiper/img-1@2x_lg.webp 2x
+                            " type="image/webp" />
+            <source media="(min-width: 1200px)" srcset="
+                              ./images/hero-img/swiper/img-1@1x_lg.png 1x,
+                              ./images/hero-img/swiper/img-1@2x_lg.png 2x
+                            " type="image/jpg" />
+          
+            <!-- tablet screen -->
+            <source media="(min-width: 768px)" srcset="
+                              ./images/hero-img/swiper/img-1@1x_md.webp 1x,
+                              ./images/hero-img/swiper/img-1@2x_md.webp 2x
+                            " type="image/webp" />
+            <source media="(min-width: 768px)" srcset="
+                              ./images/hero-img/swiper/img-1@1x_md.png 1x,
+                              ./images/hero-img/swiper/img-1@2x_md.png 2x
+                            " type="image/png" />
+            <img class="food__photo" src="./images/hero-img/swiper/img-1@1x_md.webp" alt="first food" />
+          </picture>
+      </div>
+        <div class="swiper-slide">
+              <picture>
+                <!-- desktop screen -->
+                <source media="(min-width: 1200px)" srcset="
+                                            ./images/hero-img/swiper/img-2@1x_lg.webp 1x,
+                                            ./images/hero-img/swiper/img-2@2x_lg.webp 2x
+                                          " type="image/webp" />
+                <source media="(min-width: 1200px)" srcset="
+                                            ./images/hero-img/swiper/img-2@1x_lg.png 1x,
+                                            ./images/hero-img/swiper/img-2@2x_lg.png 2x
+                                          " type="image/jpg" />
+              
+                <!-- tablet screen -->
+                <source media="(min-width: 768px)" srcset="
+                                            ./images/hero-img/swiper/img-2@1x_md.webp 1x,
+                                            ./images/hero-img/swiper/img-2@2x_md.webp 2x
+                                          " type="image/webp" />
+                <source media="(min-width: 768px)" srcset="
+                                            ./images/hero-img/swiper/img-2@1x_md.png 1x,
+                                            ./images/hero-img/swiper/img-2@2x_md.png 2x
+                                          " type="image/png" />
+                <img class="food__photo" src="./images/hero-img/swiper/img-2@1x_md.webp" alt="first food" />
+              </picture>
+      </div>
+        <div class="swiper-slide">
+                  <picture>
+                    <!-- desktop screen -->
+                    <source media="(min-width: 1200px)" srcset="
+                                                ./images/hero-img/swiper/img-3@1x_lg.webp 1x,
+                                                ./images/hero-img/swiper/img-3@2x_lg.webp 2x
+                                              " type="image/webp" />
+                    <source media="(min-width: 1200px)" srcset="
+                                                ./images/hero-img/swiper/img-3@1x_lg.png 1x,
+                                                ./images/hero-img/swiper/img-3@2x_lg.png 2x
+                                              " type="image/jpg" />
+                  
+                    <!-- tablet screen -->
+                    <source media="(min-width: 768px)" srcset="
+                                                ./images/hero-img/swiper/img-3@1x_md.webp 1x,
+                                                ./images/hero-img/swiper/img-3@2x_md.webp 2x
+                                              " type="image/webp" />
+                    <source media="(min-width: 768px)" srcset="
+                                                ./images/hero-img/swiper/img-3@1x_md.png 1x,
+                                                ./images/hero-img/swiper/img-3@2x_md.png 2x
+                                              " type="image/png" />
+                    <img class="food__photo" src="./images/hero-img/swiper/img-3@1x_md.webp" alt="first food" />
+                  </picture>
+                </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev moves">
+        <svg class="swiper__icon" width="28" height="34" aria-label="previous">
+          <use href="./images/icons.svg#left"></use>
+        </svg>
+      </div>
+      <div class="swiper-button-next moves">
+                <svg class="swiper__icon" width="28" height="34" aria-label="previous">
+                  <use href="./images/icons.svg#right"></use>
+                </svg>
+
+      </div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <!--
     <div class="slider">
       <picture class="slider-item__img">
         <source
@@ -27,7 +124,7 @@
         />
         <img class="" src="./images/hero-img/slider-img_@1x_md.png" alt="" />
       </picture>
-    </div>
+    </div>-->
   </div>
 </section>
 <section class="section offerings" id="offerings">
@@ -85,32 +182,34 @@
     </div>
     <div class="about-offerings">
       <div class="special">
-        <h1 class="offerings-titles">Whats Special About Our Offerings</h1>
-        <p class="offerings-text--main">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
-      </div>
+
+          <h2 class="offerings-titles">Whats Special About Our Offerings</h2>
+          <p class="offerings-text--main">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+              ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+            </p>
+            
+        </div>
       <ul class="our-advantages">
-        <li>
-          <a class="offerings-link" href="">
+        <li class="our-advantages__item">
+          <!-- <a class="offerings-link" href="">
             <svg class="" width="32" height="32">
               <use href="./images/icons.svg#icon-hero-svg1"></use>
             </svg>
-          </a>
+          </a> -->
           <h2 class="secondary-titles">Fasest Delivery</h2>
           <p class="offerings-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros.
           </p>
         </li>
-        <li>
-          <a class="offerings-link" href="">
+        <li class="our-advantages__item--two">
+          <!-- <a class="offerings-link" href="">
             <svg class="" width="32" height="32">
               <use href="./images/icons.svg#icon-hero-svg2"></use>
             </svg>
-          </a>
+          </a> -->
           <h2 class="secondary-titles">Easy to order</h2>
           <p class="offerings-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -118,21 +217,25 @@
           </p>
         </li>
       </ul>
-      <ul class="offerings-btn-list">
-        <li>
+      <div class="offerings-btn-list">
+      <div>
+        
           <button class="offerings-btn offerings-btn--white" type="button">
             Order Now
           </button>
-        </li>
-        <li>
-          <button class="offerings-btn offerings-btn--no-color" type="button">
+        
+    </div>
+    <div>
+        <a href="" class="offerings-btn offerings-btn--no-color">
+          
             Read More
             <svg class="offerings-btn__cvg" width="14" height="14">
               <use href="./images/icons.svg#icon-chevron-down"></use>
             </svg>
-          </button>
-        </li>
-      </ul>
+          
+        </a>
+    </div>
+    </div>
     </div>
   </div>
 </section>
