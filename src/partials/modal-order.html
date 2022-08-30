@@ -1,0 +1,47 @@
+<div class="backdrop backdrop--is-hidden backdrop--position" data-modal>
+  <div class="modal modal--position">
+    <button class="btn-close modal__btn-close--position" data-modal-close>
+      <svg class="btn-close__icon" width="24" height="24">
+        <use href="./images/icons.svg#btn-close"></use>
+      </svg>
+    </button>
+
+    <form class="order-form">
+      <strong class="order-form__title"> Order Form </strong>
+      <div class="order-form__group" role="group">
+        <label class="order-form__thumb">
+          <span class="order-form__label">Name</span>
+          <input
+            class="order-form__input"
+            type="text"
+            name="user-name"
+            placeholder="Your name"
+          />
+        </label>
+        <label class="order-form__thumb">
+          <span class="order-form__label">Phone number</span>
+          <input
+            class="order-form__input"
+            type="tel"
+            name="user-tel"
+            placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          />
+        </label>
+        <label class="order-form__thumb">
+          <span class="order-form__label">E-mail</span>
+          <input
+            class="order-form__input"
+            type="email"
+            name="user-email"
+            placeholder="example@gmail.com"
+            autocomplete="on"
+          />
+        </label>
+      </div>
+
+      <button class="order-button order-form__order-button" type="submit">
+        Send
+      </button>
+    </form>
+  </div>
+</div>
