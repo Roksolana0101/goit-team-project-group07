@@ -40,6 +40,7 @@ img {
     padding-left: 32px;
   }
   @media screen and (min-width: 1280px) {
+    position: relative;
     width: 1280px;
     padding-right: 16px;
     padding-left: 16px;
@@ -47,6 +48,7 @@ img {
 }
 
 .hero {
+<<<<<<< Updated upstream
   margin-left: auto;
   margin-right: auto;
 
@@ -56,13 +58,24 @@ img {
 .hero-container {
   @media screen and (min-width: 768px) {
   }
+=======
+
+  padding-top: 60px;
+
+
+>>>>>>> Stashed changes
   @media screen and (min-width: 1280px) {
+    padding-top: 160px;
   }
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 .hero-information {
-  @media screen and (min-width: 768px) {
-  }
+ 
   @media screen and (min-width: 1280px) {
     margin-right: 45%;
   }
@@ -146,7 +159,7 @@ img {
 
   @media screen and (min-width: 768px) {
     margin-bottom: 60px;
-    margin-top: 150px;
+    
   }
 
   @media screen and (min-width: 1280px) {
@@ -298,17 +311,25 @@ img {
       background-image: url(../images/hero-img/bg-tablet@2x.png);
     }
     background-size: cover;
+    padding-top: 150px;
+    
   }
 
   @media screen and (min-width: 1280px) {
+<<<<<<< Updated upstream
     background-image: url(../images/hero-img/bg-tablet@1x.png);
 
+=======
+    background-image: url(../images/hero-img/desktop-bg@1x.png);
+>>>>>>> Stashed changes
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/hero-img/bg-tablet@2x.png);
+      background-image: url(../images/hero-img/desktop-bg@2x.png);
     }
-    max-width: 1600px;
+    margin-top: -45px;
+    padding-top: 177px;
+    
   }
 }
 
@@ -328,7 +349,7 @@ img {
   }
 
   @media screen and (min-width: 1280px) {
-    margin-right: 51px;
+   
   }
 }
 
@@ -384,7 +405,7 @@ img {
   text-align: left;
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
   }
 
@@ -403,7 +424,7 @@ img {
 
   @media screen and (min-width: 1280px) {
     margin-right: 0;
-    margin-top: 260px;
+    
   }
 }
 
@@ -423,21 +444,77 @@ img {
   }
 }
 
+<<<<<<< Updated upstream
+=======
+.our-advantages__item::before{
+    margin-bottom: 10px;
+    display: block;
+    content: '';
+
+    @media screen{
+    
+    background-image: url(../images/hero-img/advantages-img1@1x.png);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/hero-img/advantages-img1@2x.png);
+  }
+}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+
+}
+
+.our-advantages__item--two::before{
+    margin-bottom: 10px;
+    display: block;
+    content: '';
+
+    @media screen{
+
+        background-image: url(../images/hero-img/advantages-img2@1x.png);
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../images/hero-img/advantages-img2@2x.png);
+      }
+    }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+
+>>>>>>> Stashed changes
 .secondary-titles {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   margin-bottom: 16px;
   text-align: left;
+<<<<<<< Updated upstream
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.2;
   }
 
+=======
+ 
+>>>>>>> Stashed changes
   @media screen and (min-width: 1280px) {
-    font-size: 14px;
-    line-height: 150%;
+    
+    line-height: 140%;
   }
   color: var(--main-txt-color);
 }
@@ -462,7 +539,11 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
+<<<<<<< Updated upstream
 
+=======
+  align-items: center;
+>>>>>>> Stashed changes
   @media screen and (min-width: 768px) {
     justify-content: start;
   }
@@ -551,23 +632,46 @@ img {
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
+<<<<<<< Updated upstream
     bottom: 33%;
     left: 54%;
+=======
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    border: 14px solid #ffe550;
+
+    .slider:focus {
+        border: 14px solid var(--accent-bg-color);
+        cursor: pointer;
+      }
+      &:hover {
+        border: 14px solid var(--accent-bg-color);
+        cursor: pointer;
+      }
+>>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 1280px) {
     width: 580px;
     height: 580px;
+<<<<<<< Updated upstream
 
     top: 12%;
     left: 51%;
+=======
+    border: 26px solid #ffe550;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+>>>>>>> Stashed changes
     .slider:focus {
-      border: 9px solid var(--accent-bg-color);
+      border: 26px solid var(--accent-bg-color);
       cursor: pointer;
     }
 
     &:hover {
-      border: 23px solid var(--accent-bg-color);
+      border: 26px solid var(--accent-bg-color);
       cursor: pointer;
     }
   }
