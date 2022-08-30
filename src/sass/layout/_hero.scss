@@ -461,13 +461,13 @@ img {
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
-    bottom: 33%;
+    top: 22%;
     left: 54%;
   }
   @media screen and (min-width: 1280px) {
     width: 580px;
     height: 580px;
-    top: 12%;
+    top: 10%;
     left: 51%;
     .slider:focus {
       border: 9px solid var(--accent-bg-color);
