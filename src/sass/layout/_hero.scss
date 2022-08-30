@@ -479,7 +479,38 @@ img {
     }
   }
 }
+.moves {
+  position: absolute;
+    padding-top: 5px;
+    width: 34px;
+    height: 28px;
+    background: #fefefe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    color: var(--black-color);
+    z-index: 10;
+    &::after {
+        display: none;
+      }
+    
+      &:hover,
+      &:focus {
+        color: #7eb101;
+      }
+    
+      &:active {
+        color: var(--bg-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+      }
+    
+      .swiper__icon {
+        fill: currentColor;
+        width: 48px;
+        height: 40px;
+      }
+    
 
+}
 .slider-item__img {
   margin-top: auto;
   margin-bottom: auto;
