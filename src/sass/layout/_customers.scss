@@ -15,20 +15,18 @@
       margin-right: auto;
       margin-left: auto;
     }
-  }
-  .сustomers__container {
     padding-top: 60px;
     padding-bottom: 60px;
 
     @media screen and (min-width: 768px) {
-      padding-bottom: 112px;
+      padding-bottom: 120px;
     }
     @media screen and (min-width: 1280px) {
       padding-top: 100px;
       padding-bottom: 200px;
-     
     }
   }
+
   .customers__stars-container {
     @media screen and (min-width: 768px) {
       display: flex;
@@ -94,12 +92,6 @@
   }
   .customers__sub-title-position {
     margin-bottom: 32px;
-    // @media screen and (min-width: 768px) {
-    //   margin-bottom: 48px;
-    //   @media screen and (min-width: 1280px) {
-    //     margin-bottom: 26px;
-    //   }
-    // }
   }
   .customers__text {
     font-weight: 700;
@@ -114,7 +106,7 @@
     }
   }
   .customers__text-position {
-    margin-bottom: 44px;
+    margin-bottom: 40px;
   }
   .customers__user {
     display: flex;
@@ -133,7 +125,6 @@
     color: var(--main-txt-color);
 
     margin-bottom: 1px;
-
   }
   .customers__user-dude {
     font-size: 14px;
