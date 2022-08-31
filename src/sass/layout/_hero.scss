@@ -514,9 +514,7 @@ img {
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
-    top: 421px;
-    transform: translateY(-50%);
-    right: 30px;
+  
     border: 14px solid #ffe550;
 
     .slider:focus {
@@ -532,9 +530,7 @@ img {
     width: 580px;
     height: 580px;
     border: 26px solid #ffe550;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 15px;
+
     .slider:focus {
       border: 26px solid var(--accent-bg-color);
       cursor: pointer;
@@ -579,6 +575,19 @@ img {
       }
     
 
+      @media screen and (max-width: 767px) {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+      }
+
 }
 .slider-item__img {
   margin-top: auto;
@@ -595,4 +604,87 @@ img {
     width: 528px;
     height: 528px;
   }
+}
+
+
+
+
+
+
+
+.swiper-button-prev {
+
+
+
+  @media screen and (min-width: 768px) {
+    width: 28px;
+    height: 34px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+
+
+    left: -7px;
+ 
+    
+  }
+  @media screen and (min-width: 1280px) {
+    width: 40px;
+    height: 48px;
+    background-color: #fefefe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+
+    left: -7px;
+  }
+}
+
+.swiper-button-next {
+  @media screen and (min-width: 768px) {
+    width: 28px;
+    height: 34px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+
+    right: -7px;
+
+   
+    
+   
+  }
+  @media screen and (min-width: 1280px) {
+    width: 40px;
+    height: 48px;
+    background-color: #fefefe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    right: -7px;
+  }
+}
+
+
+
+
+.slider{
+  position: absolute;
+
+
+  @media screen and (min-width: 768px) {
+    width: 320px;
+    height: 320px;
+    top: 421px;
+    transform: translateY(-50%);
+    right: 30px;
+   
+  }
+  @media screen and (min-width: 1280px) {
+    width: 580px;
+    height: 580px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+  }
+
 }
