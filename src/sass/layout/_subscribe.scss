@@ -120,15 +120,15 @@
     opacity: 1;
   }
   &__email-text {
-        width: 100%;
+    display: none;
+    width: 100%;
     margin-top: 4px;
 
-    @media screen and (min-width: 768px) {
+    
       display: flex;
       align-items: center;
       opacity: 0;
     }
-  }
   &__email-text {
     text-align: left;
     font-size: 10px;
