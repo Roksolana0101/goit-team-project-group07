@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicon-->
+    <link rel="icon" href="./images/icons/favicon.ico" />
+    <title>Food delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper bundle -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--Favicon-->
-  <link rel="icon" href="./images/icons/favicon.ico" />
-  <title>Food delivery</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <!-- Swiper bundle -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <!-- Animate CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <!-- Scripts -->
 
-  <link rel="stylesheet" href="./sass/index.scss" />
-  <!-- Scripts -->
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+    <!-- скрипт на мобільне меню -->
+    <script defer src="./mobile-menu.js"></script>
+    <!-- скрипт на блокування скролу при відкритому мобільному меню -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- скрипт для модального вікна -->
+    <script defer src="./modal.js"></script>
+  </head>
 
-  <!-- Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script type="module" src="./index.js"></script>
-  <script defer src="./mobile-menu.js"></script>
-</head>
-
-<body data-page>
-  <include src="./partials/header.html"></include>
-  <main>
-    <include src="./partials/hero.html"></include>
-    <include src="./partials/favorites.html"></include>
-    <include src="./partials/customers.html"></include>
-    <include src="./partials/subscribe.html"></include>
-  </main>
-  <include src="./partials/footer.html"></include>
-  
-</body>
-
+  <body data-page>
+    <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/favorites.html"></include>
+      <include src="./partials/customers.html"></include>
+      <include src="./partials/subscribe.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal-order.html"></include>
+  </body>
 </html>
