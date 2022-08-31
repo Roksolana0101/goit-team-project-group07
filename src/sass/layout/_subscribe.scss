@@ -70,24 +70,28 @@
     }
   }
   &__email-forms {
-  
     @media screen and (min-width: 768px) {
-      margin-right: 22px;
-      margin-bottom: 0;
-    }
-    @media screen and (min-width: 1280px) {
-      margin-right: 32px;
+      display: contents;
     }
   }
+
   &__email-input {
     border: 1px solid #ffe550;
     border-radius: 30px;
     height: 42px;
     width: 100%;
     padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 20px;
     outline: transparent;
+
     @media screen and (min-width: 768px) {
       width: 394px;
+      margin-right: 22px;
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-right: 32px;
     }
   }
 
@@ -142,8 +146,8 @@
     line-height: calc(21 / 14);
 
     color: var(--main-txt-color);
-
-    padding: 11px 22px;
+    min-width: 103px;
+    padding: 10px 20px;
     background-color: #bbf330;
     border-radius: 30px;
     cursor: pointer;
