@@ -70,7 +70,7 @@
     }
   }
   &__email-forms {
-    margin-bottom: 20px;
+  
     @media screen and (min-width: 768px) {
       margin-right: 22px;
       margin-bottom: 0;
@@ -159,4 +159,8 @@
   &__btn:focus {
     background-color: #b5ff00;
   }
+}
+.subscribe__email {
+  display: block;
+  margin-bottom: 20px;
 }
