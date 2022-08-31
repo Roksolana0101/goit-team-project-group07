@@ -7,9 +7,10 @@
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
       </p>
-      <button class="hero-btn" type="button">Order Now</button>
+      <button class="hero-btn" type="button" data-modal-open >Order Now</button>
     </div>
     <!-- Slider main container -->
+    <div class="slider">
     <div class="swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
@@ -90,21 +91,23 @@
       </div>
       <!-- If we need pagination -->
       <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev moves">
-        <svg class="swiper__icon" width="28" height="34" aria-label="previous">
-          <use href="./images/icons.svg#left"></use>
-        </svg>
-      </div>
-      <div class="swiper-button-next moves">
-                <svg class="swiper__icon" width="28" height="34" aria-label="previous">
-                  <use href="./images/icons.svg#right"></use>
-                </svg>
-
-      </div>
-    
+      
       <!-- If we need scrollbar -->
       <div class="swiper-scrollbar"></div>
     </div>
+    <div class="swiper-button-prev moves">
+      <svg class="swiper__icon" width="28" height="34" aria-label="previous">
+        <use href="./images/icons.svg#left"></use>
+      </svg>
+    </div>
+    <div class="swiper-button-next moves">
+              <svg class="swiper__icon" width="28" height="34" aria-label="previous">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+
+    </div>
+
+  </div>
     <!--
     <div class="slider">
       <picture class="slider-item__img">
@@ -220,7 +223,7 @@
       <div class="offerings-btn-list">
       <div>
         
-          <button class="offerings-btn offerings-btn--white" type="button">
+          <button class="offerings-btn offerings-btn--white" type="button" data-modal-open>
             Order Now
           </button>
         
