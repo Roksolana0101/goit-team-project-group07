@@ -1,59 +1,23 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  object-position: center;
-  object-fit: cover;
-}
 .section {
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
   @media screen and (min-width: 768px) {
-    width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
   }
   @media screen and (min-width: 1280px) {
     position: relative;
-    width: 1280px;
-    padding-right: 16px;
-    padding-left: 16px;
   }
 }
 .hero {
-
   padding-top: 60px;
-
 
   @media screen and (min-width: 1280px) {
     padding-top: 160px;
   }
 }
 
-
-
 .hero-information {
- 
   @media screen and (min-width: 1280px) {
     margin-right: 45%;
   }
@@ -122,7 +86,6 @@ img {
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 60px;
-    
   }
   @media screen and (min-width: 1280px) {
   }
@@ -254,7 +217,6 @@ img {
     }
     background-size: cover;
     padding-top: 150px;
-    
   }
   @media screen and (min-width: 1280px) {
     background-image: url(../images/hero-img/desktop-bg@1x.png);
@@ -265,7 +227,6 @@ img {
     }
     margin-top: -45px;
     padding-top: 177px;
-    
   }
 }
 .offerings-container {
@@ -281,7 +242,6 @@ img {
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1280px) {
-   
   }
 }
 .offerings-titles {
@@ -343,7 +303,6 @@ img {
   }
   @media screen and (min-width: 1280px) {
     margin-right: 0;
-    
   }
 }
 .our-advantages {
@@ -361,54 +320,49 @@ img {
   }
 }
 
-.our-advantages__item::before{
-    margin-bottom: 10px;
-    display: block;
-    content: '';
+.our-advantages__item::before {
+  margin-bottom: 10px;
+  display: block;
+  content: '';
 
-    @media screen{
-    
+  @media screen {
     background-image: url(../images/hero-img/advantages-img1@1x.png);
     @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/hero-img/advantages-img1@2x.png);
-  }
-}
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 32px 32px;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background-color: #ffffff;
-
-
-}
-
-.our-advantages__item--two::before{
-    margin-bottom: 10px;
-    display: block;
-    content: '';
-
-    @media screen{
-
-        background-image: url(../images/hero-img/advantages-img2@1x.png);
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: url(../images/hero-img/advantages-img2@2x.png);
-      }
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/hero-img/advantages-img1@2x.png);
     }
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 32px 32px;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background-color: #ffffff;
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
+.our-advantages__item--two::before {
+  margin-bottom: 10px;
+  display: block;
+  content: '';
+
+  @media screen {
+    background-image: url(../images/hero-img/advantages-img2@1x.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/hero-img/advantages-img2@2x.png);
+    }
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
 
 .secondary-titles {
   font-weight: 700;
@@ -416,9 +370,8 @@ img {
   line-height: 1.2;
   margin-bottom: 16px;
   text-align: left;
- 
+
   @media screen and (min-width: 1280px) {
-    
     line-height: 140%;
   }
   color: var(--main-txt-color);
@@ -513,17 +466,17 @@ img {
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
-  
+
     border: 14px solid #ffe550;
 
     .slider:focus {
-        border: 14px solid var(--accent-bg-color);
-        cursor: pointer;
-      }
-      &:hover {
-        border: 14px solid var(--accent-bg-color);
-        cursor: pointer;
-      }
+      border: 14px solid var(--accent-bg-color);
+      cursor: pointer;
+    }
+    &:hover {
+      border: 14px solid var(--accent-bg-color);
+      cursor: pointer;
+    }
   }
   @media screen and (min-width: 1280px) {
     width: 580px;
@@ -545,48 +498,46 @@ img {
 }
 .moves {
   position: absolute;
-    padding-top: 5px;
-    width: 34px;
-    height: 28px;
-    background: #fefefe;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
-    border-radius: 4px;
-    color: var(--black-color);
-    z-index: 10;
-    &::after {
-        display: none;
-      }
-    
-      &:hover,
-      &:focus {
-        color: #7eb101;
-      }
-    
-      &:active {
-        color: var(--bg-color);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-      }
-    
-      .swiper__icon {
-        fill: currentColor;
-        width: 48px;
-        height: 40px;
-      }
-    
+  padding-top: 5px;
+  width: 34px;
+  height: 28px;
+  background: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  color: var(--black-color);
+  z-index: 10;
+  &::after {
+    display: none;
+  }
 
-      @media screen and (max-width: 767px) {
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
-      }
+  &:hover,
+  &:focus {
+    color: #7eb101;
+  }
 
+  &:active {
+    color: var(--bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  }
+
+  .swiper__icon {
+    fill: currentColor;
+    width: 48px;
+    height: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 }
 .slider-item__img {
   margin-top: auto;
@@ -605,16 +556,7 @@ img {
   }
 }
 
-
-
-
-
-
-
 .swiper-button-prev {
-
-
-
   @media screen and (min-width: 768px) {
     width: 28px;
     height: 34px;
@@ -622,10 +564,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
 
-
     left: -7px;
- 
-    
   }
   @media screen and (min-width: 1280px) {
     width: 40px;
@@ -633,7 +572,6 @@ img {
     background-color: #fefefe;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-
 
     left: -7px;
   }
@@ -648,10 +586,6 @@ img {
     border-radius: 4px;
 
     right: -7px;
-
-   
-    
-   
   }
   @media screen and (min-width: 1280px) {
     width: 40px;
@@ -663,12 +597,8 @@ img {
   }
 }
 
-
-
-
-.slider{
+.slider {
   position: absolute;
-
 
   @media screen and (min-width: 768px) {
     width: 320px;
@@ -676,7 +606,6 @@ img {
     top: 421px;
     transform: translateY(-50%);
     right: 30px;
-   
   }
   @media screen and (min-width: 1280px) {
     width: 580px;
@@ -685,5 +614,4 @@ img {
     transform: translateY(-50%);
     right: 15px;
   }
-
 }
