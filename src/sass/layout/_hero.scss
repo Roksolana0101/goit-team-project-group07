@@ -473,9 +473,7 @@
     }
   }
 }
-.swiper-scrollbar {
-  display: none;
-}
+
 .moves {
   position: absolute;
   padding-top: 5px;
@@ -583,9 +581,9 @@
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
-    top: 421px;
+    top: 32%;
     transform: translateY(-50%);
-    right: 30px;
+    left: 55%;
   }
   @media screen and (min-width: 1280px) {
     width: 580px;
